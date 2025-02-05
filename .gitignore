@@ -3,6 +3,6 @@ x64/
 .sln/
 .vcxproj/
 .vcxproj.filters/
-.vcxproj.user
+.vcxproj.user/
 !probl*/**/*.cpp  
 !.gitignore
