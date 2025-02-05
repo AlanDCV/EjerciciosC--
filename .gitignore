@@ -1,8 +1,8 @@
 x64/
-.vs/
-.sln/
-.vcxproj/
-.vcxproj.filters/
-.vcxproj.user/
+*.vs/
+*.sln/
+*.vcxproj/
+*.vcxproj.filters/
+*.vcxproj.user/
 !probl*/**/*.cpp  
 !.gitignore
