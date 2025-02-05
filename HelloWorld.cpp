@@ -1,3 +1,4 @@
+//Problema 6 del libro
 #include <iostream>
 #include <cmath>
 using namespace std;
