@@ -1,7 +1,3 @@
-.vs/
-bin/
-obj/
-*.sln
-*.vcxproj
-*.vcxproj.filters
-/HelloWorld.cpp
+*  
+!probl*/  
+!.gitignore
