@@ -4,3 +4,4 @@ obj/
 *.sln
 *.vcxproj
 *.vcxproj.filters
+/HelloWorld.cpp
