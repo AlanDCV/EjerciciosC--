@@ -6,3 +6,5 @@ x64/
 *.vcxproj.user/
 !probl*/**/*.cpp  
 !.gitignore
+Debug/
+Release/
