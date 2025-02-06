@@ -1,10 +1,14 @@
+# Ignorar carpetas y archivos de Visual Studio
+.vs/
+*.sln
+*.vcxproj
+*.vcxproj.filters
+*.vcxproj.user
+
+# Ignorar carpetas de compilación
 x64/
-*.vs/
-*.sln/
-*.vcxproj/
-*.vcxproj.filters/
-*.vcxproj.user/
-!probl*/**/*.cpp  
-!.gitignore
 Debug/
 Release/
+
+# Excepciones: permitir solo los códigos fuente dentro de carpetas probl*
+!probl*/*.cpp
