@@ -4,7 +4,7 @@ using namespace std;
 
 int main(){
 
-	int mc, desc, total, recargo;
+	int mc, desc, total1, total2, recargo;
 	string ClienG, ClienA, fp, tipoc;
 
 
@@ -15,14 +15,14 @@ int main(){
 	if (tipoc == "A" && fp == "C") {
 		desc = mc * 0.20;
 	}
-	else (tipoc == "A" && fp == "P"); {
+	else if(tipoc == "A" && fp == "P"){
 		recargo = mc * 0.05;
 	}
-
+	
 	if (tipoc == "G" && fp == "C") {
 		desc = mc * 0.15;
 	}
-	else(tipoc == "G" && fp == "P"); {
+	else if (tipoc == "G" && fp == "P"){
 		recargo = mc * 0.10;
 	}
 
@@ -30,21 +30,21 @@ int main(){
 
 	if (fp == "C") {
 
-		total = mc - desc;
+		total1 = mc - desc;
 
 		cout << '\n';
 		cout << "Descuento: " << desc;
-		cout << "\nTotal a pagar: " << total << endl;
+		cout << "\nTotal a pagar: " << total1 << endl;
 
 	}
-
+	
 	if (fp == "P") {
 
-		total = mc + recargo;
+		total2 = mc + recargo;
 
 		cout << '\n';
 		cout << "Recargo: " << recargo;
-		cout << "\nTotal a pagar: " << total << endl;
+		cout << "\nTotal a pagar: " << total2 << endl;
 
 	}
 
