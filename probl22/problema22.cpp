@@ -15,7 +15,7 @@ int main(){
 	if (tipoc == "A" && fp == "C") {
 		desc = mc * 0.20;
 	}
-	else if(tipoc == "A" && fp == "P"){
+	else if (tipoc == "A" && fp == "P"){
 		recargo = mc * 0.05;
 	}
 	
